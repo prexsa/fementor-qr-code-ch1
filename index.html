@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    @media (max-width: 375px) {
+      body {
+        width: 375px;
+      }
+    }
+    p { margin-top: 0.7em; margin-bottom: 0.7em }
+    body {
+      width: 1440px;
+      background-color: hsl(212, 45%, 89%);
+      font-family: 'Outfit', sans-serif;
+      font-size: 15px;
+    }
+    img { max-width:100%; border-radius: 10px }
+    .card {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: fit-content;
+      width: 300px;
+      margin: auto;
+      background-color: hsl(0, 0%, 100%);
+      padding: 14px;
+      border-radius: 15px;
+    }
+    .detail { text-align: center; padding: 5px 15px 18px;}
+    .detail p:nth-child(1) {
+      font-weight: 700;
+      font-size: 23px;
+      color: hsl(218, 44%, 22%);
+      letter-spacing: 0.6px
+    }
+    .detail p:nth-child(2) { font-size: 16px; color: hsl(220, 15%, 55%) }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+    <div class='card'>
+      <img src='./images/image-qr-code.png' />
+      <div class='detail'>
+        <p>Improve your front-end skills by building projects</p>
+        <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+      </div>
+      <!-- <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">prex</a>.
+      </div> -->
+    </div>
+</body>
+</html>
